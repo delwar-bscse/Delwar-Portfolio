@@ -10,7 +10,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false);
 
   return (
-    <div className="w-full px-10 h-20 fixed top-0 left-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
+    <div className="w-full mx-auto px-4 lg:px-10 h-20 fixed top-0 left-0 z-50 bg-bodyColor flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div className='flex items-end gap-3'>
         <Link
           to="about"
@@ -18,9 +18,9 @@ const Navbar = () => {
           smooth={true}
           offset={-70}
           duration={500}
-          className='font-titleFont text-white text-3xl font-bold shadow-sm cursor-pointer'
+          className='font-titleFont text-white text-2xl lg:text-3xl font-bold shadow-sm cursor-pointer'
         >
-            M D Hossain
+            MDH
         </Link>
       </div>
       <div>
