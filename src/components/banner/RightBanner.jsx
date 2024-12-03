@@ -18,7 +18,7 @@ const RightBanner = () => {
       <div data-aos="zoom-in" data-aos-delay="500"  className='relative w-[80%] flex justify-center items-center '>
           <img src={design} alt="Design image" className='w-[65%] animate-pulse pb-3 pr-3' />
 
-          <img src={circleShape} alt="circle shape" className='absolute w-[90%] lg:rotateAnimation'/>
+          <img src={circleShape} alt="circle shape" className='absolute w-[90%] lgl:rotateAnimation'/>
         </div>
     </div>
   );

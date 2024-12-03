@@ -24,21 +24,26 @@ const Contact = () => {
     
     if (username === "") {
       setErrMsg("Username is required!");
+      setSuccessMsg("");
     } else if (phoneNumber === "") {
       setErrMsg("Phone number is required!");
+      setSuccessMsg("");
     } else if (email === "") {
       setErrMsg("Please give your Email!");
+      setSuccessMsg("");
     } else if (!emailValidation(email)) {
       setErrMsg("Give a valid Email!");
+      setSuccessMsg("");
     } else if (subject === "") {
       setErrMsg("Plese give your Subject!");
+      setSuccessMsg("");
     } else if (message === "") {
       setErrMsg("Message is required!");
+      setSuccessMsg("");
     } else {
       setSuccessMsg(
         `Thank you dear ${username}, Your Messages has been sent Successfully!`
       );
-      setErrMsg("");
       setErrMsg("");
       setUsername("");
       setPhoneNumber("");
